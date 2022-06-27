@@ -1,0 +1,249 @@
+<nav id="navbar">
+  <header>Python Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#Why_you_should_use_Python"
+        >Why you should use Python</a
+      >
+    </li>
+    
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+    </li>
+    <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+    <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+    <li><a class="nav-link" href="#Constants">Execution</a></li>
+    <li><a class="nav-link" href="#Data_types">Data types</a></li>
+    <li>
+      <a class="nav-link" href="#Numbers">Numbers</a>
+    </li>
+    <li><a class="nav-link" href="#String_Fundamentals">String Fundamentals</a></li>
+    <li>
+      <a class="nav-link" href="#String_Methods">String Methods
+      </a>
+      
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+
+      </p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.
+
+      <p>
+        Python is very interactive and contains Large librarys and elegant syntax.
+      </p>
+     
+        
+        
+    </article>
+  </section>
+  <section class="main-section" id="Why_you_should_use_python">
+    <header>Why you should use python</header>
+    <article>
+      <p>Using Python has many good benefits:</p>
+
+      <ul>
+        <li>
+          It has good readability and is very easy to understand
+        </li>
+        <li>Python has a very good community and anyone can visit either online or offline to learn more about it.</li>
+        <li>
+          For more than 20 years, programmers have been using Python to teach about using different codes written using it.
+        </li>
+      </ul>
+    </article>
+  </section>
+  
+    
+    
+  <section class="main-section" id="Hello_world">
+    <header>Hello world</header>
+    <article>
+      To get started with writing Python, open the Scratchpad and write your
+      first "Hello world" Python code:
+      <code
+        >print("Hello World")
+      </code>
+
+      Select the code in the pad and hit Ctrl+R to watch it unfold in your
+      browser!
+    </article>
+  </section>
+  <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <p>
+      You use variables as symbolic names for values in your application. The
+      names of variables, called identifiers, conform to certain rules.
+    </p>
+    <p>
+     When you make a Python Identifier it should be clear and readable. It should also be very descriptive.
+    </p>
+    <p>
+      You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers.
+      You can also use the Unicode escape sequences as characters in
+      identifiers. Some examples of legal names are Number_hits, temp99, and
+      _name.
+    </p>
+  </section>
+  <section class="main-section" id="Declaring_variables">
+    <header>Declaring variables</header>
+    <article>
+      How to declare a variable in python:
+      <p>
+        To declare a variable all you have to do is 1st name it, it can be any keyword of your choosing, then finally you assign a value to it. Like this <code> Name= Sharon print (Name) = Sharon </code>
+      </p>
+
+        
+    </article>
+  </section>
+  <section class="main-section" id="Variable_scope">
+    <header>Variable scope</header>
+    <article>
+      <p>
+        When you declare a variable outside of any function, it is called a
+        global variable, because it is available to any other code in the
+        current document. When you declare a variable within a function, it is
+        called a local variable, because it is available only within that
+        function.
+      </p>
+
+      <p> Accessing everything in python is not easy and there will always be differences in length between your variables.
+      </p>
+    
+    </article>
+  </section>
+  <section class="main-section" id="Global_variables">
+    <header>Global variables</header>
+    <article>
+      <p>
+        Global variables are in fact properties of the global object. In web
+        pages the global object is window, so you can set and access global
+        variables using the window.variable syntax.
+      </p>
+
+      <p>
+        Consequently, you can access global variables declared in one window or
+        frame from another window or frame by specifying the window or frame
+        name. For example, if a variable called phoneNumber is declared in code, then you would refer to it simply as dec PhoneNumber.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Execution">
+    <header>Execution</header>
+    <article>
+      <p>
+       To run a python program all you need to do is first start the project, then once its created you need to save and run the program as an .py file.
+      </p>
+
+      <p>
+          In the PyCharm IDE:
+
+Start project
+Welcome screen opens, click Create New Project.
+On the main menu, choose File | New Project.
+Select Python interpreter
+Choose Python version from the list. Use 3.x
+Click create
+Add new Python file (File new) and add hello.py
+Click the green triangle to start the program. Another option is to click right mouse button on your Python file and selecting run.
+Other IDEs have a similar process to run a Python program (start project, add file, run button).
+      </p>
+
+    
+    </article>
+  </section>
+  <section class="main-section" id="Data_types">
+    <header>Data types</header>
+    <article>
+      <p>There are five main data types in Python</p>
+      <ul>
+        <li>
+          <p>five data types that are primitives:</p>
+          <ul>
+            <li>Boolean. true and false.</li>
+            <li>Sequence type.</li>
+            <li>Numeric</li>
+            <li>String. "Howdy"</li>
+            <li>
+              Dictionary
+            </li>
+          
+        </li>
+
+        <li>Binary Types</li>
+      </ul>
+      
+    </article>
+  </section>
+  <section class="main-section" id="Numbers">
+    <header>Numbers</header>
+    <article>
+     Due to the unique design of the computer chips, we represent both the decimal numbers and integers differently on our computers.  We represent decimal numbers on the computer using floating point numbers.
+      <p>Uses of Decimal Numbers:</p>
+      <ul>
+        <li>Making precise financial applications</li>
+        <li> Controlling the level of precision in calculation</li>
+        <li> Implementing the significant 0 decimal places</li>
+    </article>
+  </section>
+  <section class="main-section" id="string_fundamentals">
+    <header>String Fundamentals</header>
+    <article>
+      Strings can be applied to amount to anything that can be encoded as a byte or script from a functional point of view.
+      
+
+      Example:
+
+      <p>Here are some examples of strings:</p>
+
+      <li> <code>S=""</code>  -This Illustrates an Empty string</li>
+      <li> <code> S="spam 's"</code> -The double quotes are similar to a single quote.</li>
+      <li> <code> S=r '\temp\spam'</code> - This illustrates a raw string</li>
+    
+      
+    </article>
+  </section>
+  <section class="main-section" id="String_methods">
+    <header>String Methods</header>
+    <article>
+    As well as the expression processor, strings proffer a pair of models that execute more complex text-operation activities. In Python, assertion and built-in roles may toil across a span of types, but models are commonly precise to item forms string models, for instance, toil only string tools.
+      <p> Here are some methods of strings:</p>
+      <ul>
+        <li>S.capitalize()</li>
+        <li>S.casefold()
+    
+        </li>
+        <li>S.center(width[,fill])
+
+        </li>
+        <li>S.count(sub[,start[,end]])</li>
+        <li>S.encode([encoding [,errors]])
+      </ul>
+      
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          Here is some of the documentation that was used.
+          <a
+            href="https://docs.python.org/3/"
+            target="_blank"
+            >python link</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
